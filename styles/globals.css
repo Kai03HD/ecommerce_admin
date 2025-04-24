@@ -1,0 +1,46 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+img{
+    height: 100%
+}
+input, textarea, select{
+    @apply border border-gray-900 rounded-md px-1 w-full p-1 px-2;
+    @apply mb-2
+
+}
+input:focus, textarea:focus, select:focus{
+    @apply border-blue-900;
+}
+h1 {
+    @apply text-gray-900 mb-2 text-xl;
+}
+label {
+    @apply text-gray-900 bg-white shadow-md rounded-md;
+}
+.btn-primary{
+    @apply bg-primary text-white py-1 rounded-md px-5;
+}
+table.basic tr td{
+    @apply px-4 py-1
+}
+table.basic thead tr td{
+    @apply text-gray-700 text-sm border-gray-600 border-b uppercase
+}
+table.basic {
+    @apply w-full
+}
+table.basic a{
+    @apply  py-1  px-5 rounded-md inline-flex gap-1 mx-1 text-sm
+
+}
+.btn-default, .btn-red{
+    @apply px-4 py-1 rounded-md
+}
+.btn-red{
+    @apply bg-red-500 text-white py-1 rounded-md px-5;
+}
+.btn-default{
+    @apply bg-gray-500 text-white
+}
