@@ -25,7 +25,9 @@ label {
 table.basic tr td{
     @apply px-4 py-1
 }
-table.basic thead tr td{
+table.basic thead tr td,
+table.basic thead tr th
+{
     @apply text-gray-700 text-sm border-gray-600 border-b uppercase
 }
 table.basic {
